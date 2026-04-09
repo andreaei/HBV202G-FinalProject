@@ -1,0 +1,23 @@
+.Gulur {
+    -fx-background-image: url("myndir/gulur.png");
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+.Blar {
+    -fx-background-image: url("myndir/blar.png"
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+.Start {
+    -fx-background-image: url("myndir/start.png"
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+.Finish {
+    -fx-background-image: url("myndir/finish.png"
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
