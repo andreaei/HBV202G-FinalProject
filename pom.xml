@@ -14,8 +14,8 @@
         þýðandanum og maven plugin
         -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>25.0.1</javafx.version>
-        <java.release>25</java.release>
+        <javafx.version>21.0.1</javafx.version>
+        <java.release>21</java.release>
     </properties>
 
     <dependencyManagement>
@@ -46,12 +46,47 @@
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
+        <version>5.14.3</version>
         <scope>test</scope>
     </dependency>
     <!-- Optionally: parameterized tests support -->
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-params</artifactId>
+        <version>5.14.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- JUnit Jupiter engine for test execution -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.14.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- Mockito for mocking in tests -->
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.8.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-junit-jupiter</artifactId>
+        <version>5.8.0</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- TestFX for JavaFX testing -->
+    <dependency>
+        <groupId>org.testfx</groupId>
+        <artifactId>testfx-core</artifactId>
+        <version>4.0.16-alpha</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.testfx</groupId>
+        <artifactId>testfx-junit5</artifactId>
+        <version>4.0.16-alpha</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
@@ -62,9 +97,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
                 <configuration>
                     <release>${java.release}</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.6.3</version>
+                <configuration>
+                    <mainClass>is.vidmot.LudoApplication</mainClass>
                 </configuration>
             </plugin>
             <!-- JavaFX keyrsla -->
@@ -77,7 +119,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>Ludo/is.vidmot.LudoApplication</mainClass>
+                            <mainClass>is.vidmot.LudoApplication</mainClass>
                             <options>
                                 <option>--enable-native-access=javafx.graphics</option>
                             </options>
