@@ -3,14 +3,6 @@ package is.vinnsla;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleObjectProperty;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *
- *  Lýsing  : Lýsing
- *
- *
- *****************************************************************************/
 public class Reitur {
 
     public enum Audkenni{

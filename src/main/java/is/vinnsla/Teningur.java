@@ -5,14 +5,6 @@ import javafx.beans.property.SimpleIntegerProperty;
 
 import java.util.Random;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *
- *  Lýsing  : Lýsing
- *
- *
- *****************************************************************************/
 public class Teningur {
 
     private static final int MAX = 6;

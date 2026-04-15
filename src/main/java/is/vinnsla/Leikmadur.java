@@ -3,14 +3,6 @@ package is.vinnsla;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *
- *  Lýsing  : Lýsing
- *
- *
- *****************************************************************************/
 public class Leikmadur {
 
     private final SimpleIntegerProperty reitur = new SimpleIntegerProperty(-1);

@@ -5,14 +5,6 @@ import javafx.beans.property.StringProperty;
 
 import java.util.ArrayList;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *
- *  Lýsing  : Lýsing
- *
- *
- *****************************************************************************/
 public class Ludo {
 
     public enum Astand{

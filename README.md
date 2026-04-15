@@ -2,18 +2,37 @@
 
 A smaller version of the classic game Ludo for only two players
 
+## Maven goals
+
+- `mvn clean`
+- `mvn compile`
+- `mvn test`
+- `mvn package`
+- `mvn javadoc:javadoc`
 
 ## Running the program
 
-To compile and run with maven:
-`mvn exec:java`
+To run with Maven:
 `mvn exec:java`
 
 To build the jar:
 `mvn clean package`
 
-To run the packaged jar:
+On Windows:
+`package.cmd`
+
+On Linux or macOS:
+`./package.sh`
+
+To run the packaged jar on Windows:
 `java -jar target\ludo-1.0-SNAPSHOT-jar-with-dependencies.jar`
+
+Or:
+`runjar.cmd`
+
+On Linux or macOS:
+`./runjar.sh`
+4. pom.xml er gott
 
 
 ## Documentation
@@ -26,30 +45,3 @@ Design documentatioin:
 License:
 [LICENSE](LICENSE)
 
-To build the project:
-
-```powershell
-package.cmd
-```
-- This runs "mvn clean package"
-
-To run the project>
-
-```powershell
-runjar.cmd
-```
-- This runs "java -jar target\ludo-1.0-SNAPSHOT-jar-with-dependencies.jar"
-
-The Maven Assembly Plugin is used to create a fat jar that includes all dependencies.
-
-
-## Maven goals
-
-- `mvn clean`
-- `mvn compile`
-- `mvn test`
-- `mvn package`
-- `mvn javadoc:javadoc`
-
-
-## Documentaion
