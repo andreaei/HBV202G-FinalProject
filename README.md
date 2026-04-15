@@ -8,9 +8,28 @@ A smaller version of the classic game Ludo for only two players
 - `vinnsla/` contains the game logic
 
 
-## Installation and Run
+## Running the program
 
-- This project is a Maven project.
+To compile and run with maven:
+`mvn exec:java`
+`mvn exec:java`
+
+To build the jar:
+`mvn clean package`
+
+To run the packaged jar:
+`java -jar target\ludo-1.0-SNAPSHOT-jar-with-dependencies.jar`
+
+
+## Documentation
+Generate project documentation with:
+`mvn site`
+
+Design documentatioin:
+[Design documentation](src/site/markdown/design.md)
+
+License:
+[LICENSE](LICENSE)
 
 To build the project:
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <title>Ludo Documentation</title>
+    <body>
+        <menu name="Documentation">
+            <item name="Documentation" href="documentation.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
