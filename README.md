@@ -2,11 +2,6 @@
 
 A smaller version of the classic game Ludo for only two players
 
-## Architecture
-
-- `vidmot/` contains the user interface
-- `vinnsla/` contains the game logic
-
 
 ## Running the program
 

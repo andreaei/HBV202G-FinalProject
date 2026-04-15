@@ -3,8 +3,8 @@
 ## Overview
 The project follows a separation between user interface and business logic.
 
-- `LudoController` belongs to the UI layer.
-- `Ludo`, `Leikmadur`, `Reitur`, and `Teningur` belong to the business logic layer.
+- `LudoController` contain the user interface.
+- `Ludo`, `Leikmadur`, `Reitur`, and `Teningur` contain the game logic.
 
 ## UML Class Diagram
 ![UML Class Diagram](../resources/UML_class_diagram.png)
