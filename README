@@ -1,9 +1,0 @@
-## Packaging and Running
-
-To build the project:
-mvn clean package
-
-To run the application:
-java -jar target/ludo-1.0-SNAPSHOT-jar-with-dependencies.jar
-
-The Maven Assembly Plugin is used to create a fat jar that includes all dependencies.
