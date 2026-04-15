@@ -30,6 +30,14 @@ public class TeningurTest {
     }
 
     @Test
+    void testThrowNeverReturnsMoreThanSix() {
+        for (int i = 0; i < 100; i++) {
+            teningur.kasta();
+            assertTrue(teningur.getKast() <= 6);
+        }
+    }
+
+    @Test
     void testInitialState() {
         assertEquals(6, teningur.getKast()); // Default initial value
     }

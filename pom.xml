@@ -4,10 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Ludo</name>
+    <description>
+        Ludo game for two players with business logic, tests, UML class diagram
+        and documentation
+    </description>
+    <url>https://github.com/andreaei/Final_Project</url>
+
     <groupId>is.vidmot</groupId>
     <artifactId>ludo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <url>https://github.com/andreaei/Final_Project</url>
 
     <licenses>
         <license>
@@ -15,6 +21,12 @@
             <url>LICENSE</url>
         </license>
     </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/andreaei/Final_Project.git</connection>
+        <developerConnection>scm:git:ssh://github.com:andreaei/Final_Project.git</developerConnection>
+        <url>https://github.com/andreaei/Final_Project</url>
+    </scm>
 
     <properties>
         <!--

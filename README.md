@@ -32,14 +32,12 @@ Or:
 
 On Linux or macOS:
 `./runjar.sh`
-4. pom.xml er gott
-
 
 ## Documentation
 Generate project documentation with:
 `mvn site`
 
-Design documentatioin:
+Design documentation:
 [Design documentation](src/site/markdown/design.md)
 
 License:

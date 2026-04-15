@@ -4,13 +4,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *  Lýsing  : Hnappur sem sýnir texta þegar notandi smellir á hann  *
- *
- *
- *****************************************************************************/
 public class LudoApplication extends javafx.application.Application {
     /**
      * Ræsir appið
@@ -26,7 +19,7 @@ public class LudoApplication extends javafx.application.Application {
         // Smíða senuna með notendaviðmótinu sem er núna lesið inn af resources
         Scene scene = new Scene(fxmlLoader.load(), 540, 745);
         // Setja titilinn á gluggann
-        stage.setTitle("Halló heimur");
+        stage.setTitle("Ludo");
         // Tengja senuna við glugggann
         stage.setScene(scene);
         // Birta gluggann

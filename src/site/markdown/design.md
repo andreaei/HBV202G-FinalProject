@@ -11,6 +11,10 @@ The project follows a separation between user interface and business logic.
 
 ## Design Pattern
 The project uses the Observer pattern in the interaction between the UI and the game model.
+Observable: business logic in Ludo
+Observer: LudoController
+Mechanism: JavaFX property listeners and binders observe changes in game and
+update the user interface as information changes
 
 ### Roles
 - **Subject / Observable:** `Ludo`

@@ -20,12 +20,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/******************************************************************************
- *  Nafn    : Andrea Eiríksdóttir
- *  T-póstur: ane28@hi.is
- *  Lýsing  : Hnappur sem sýnir texta þegar notandi smellir á hann  *
- *
- *****************************************************************************/
 public class LudoController {
 
     @FXML
